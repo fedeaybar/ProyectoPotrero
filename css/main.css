@@ -1,0 +1,91 @@
+header{display: block;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { margin:0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align:center;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    background-color: grey;
+    
+
+}
+.recetas{
+    text-align: start;
+    text-overflow: clip;
+}
+
+figure {
+    margin: 0 0 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;}
+.header_nav{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#0f0c2936 ;
+    border-bottom: 1px solid var(#09203f);
+}
+.nav__logo{
+    flex-basis: 30%;
+    display: block;
+    margin: 0 auto;
+}
+.pasta_conteiner {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(45deg,  #0f0c2936, #302b6338, #24243e1a), url(../imagenes/italian\ cuisine.webp);
+    border-bottom: 1px solid;
+}
+.logo{
+    
+    height: 150px;
+    width: 150px;
+    display: block;
+    align-self: flex-end;
+    position:initial;
+}
+img {
+    vertical-align: middle;
+}
+.logos_social{
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    width: 40px;
+}
+a{
+    text-decoration: underline;
+}
+.title_nav_pasta {
+    display: none;
+    padding: 5px;
+    flex-basis: 40%;
+    border-radius: 50px 0 50px 0;
+    background-color:var(#202020);    
+}
+.title_nav{
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+
+}
